@@ -22,7 +22,7 @@ It is acceptable if both sides alternate on sending messages. However, it would 
 ## Week 3 (10/07)
 Write client-server classes to calculate π. We have a number of clients. The server creates a thread for each client. Each client calculates the estimated value of π and sends to the server. The server takes an average of these values and displays a more precise value of π. Note that the server should work for any number of clients by just changing the value of the constant identifier: size.
 
-### [SOLUTION](https://github.com/NikhilDikshit/Distributed-Computing-Projects/tree/master/W3-Multicasting-Group-Communication-Program) Running Instructions for Project 3: 
+### [SOLUTION] Running Instructions for Project 3: 
 
 * Run the server. Please note, nothing prompts right now but the server will start.
 * Run the client. Enter the desired value of (size) constant identifier, eg 2 or 2500, any number of clients you want your server to work for. N, *the aforementioned 'size'*, random values of Pi will be generated on the clients console.
