@@ -20,4 +20,4 @@ This message should appear on the client’s console (like: I am good. Do you ha
 It is acceptable if both sides alternate on sending messages. However, it would be good if you make your project like the real online chat (e.g. yahoo messenger, skype messenger).
 
 ## Week 3 (10/07)
-Write client-server classes to calculate *π*. We have a number of clients. The server creates a thread for each client. Each client calculates the estimated value of π and sends to the server. The server takes an average of these values and displays a more precise value of *π*. Note that the server should work for any number of clients by just changing the value of the constant identifier: *size*.
+Write client-server classes to calculate π. We have a number of clients. The server creates a thread for each client. Each client calculates the estimated value of π and sends to the server. The server takes an average of these values and displays a more precise value of π. Note that the server should work for any number of clients by just changing the value of the constant identifier: *size*.
