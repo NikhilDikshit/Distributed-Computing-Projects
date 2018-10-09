@@ -1,3 +1,6 @@
+import java.io.*;
+import java.net.*;
+
 public class MergeThread extends Thread{
   int[] a;
   int[] b;
