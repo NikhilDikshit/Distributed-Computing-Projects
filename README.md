@@ -26,10 +26,13 @@ Write client-server classes to calculate π. We have a number of clients. The se
 ```
 [x] Run MyServer.java
 Please note, nothing will prompt but the server will start
+
 [x] Run MyClient.java
 [x] Enter the desired value of (size) constant identifier, eg 2 or 2500, any number of clients you want your server to work for
 N,the aforementioned 'size', random values of Pi will be generated on the clients console
+
 [x] Go to the server’s console and enter the same constant identifier's value entered previously to take the average of all the recorded Pi values from client
+
 [ ] Socket closes and the server will be terminated
 [ ] Go to the client’s console to see the average value of random Pi’s which has been responded by the server
 ```
