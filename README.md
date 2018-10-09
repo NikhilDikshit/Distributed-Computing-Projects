@@ -24,7 +24,7 @@ Write client-server classes to calculate π. We have a number of clients. The se
 
 ### [SOLUTION] Running Instructions: 
 
-*Run the server. Please note, nothing prompts right now but the server will start.
+* Run the server. Please note, nothing prompts right now but the server will start.
 * Run the client. Enter the desired value of (size) constant identifier, eg 2 or 2500, any number of clients you want your server to work for. N, *the aforementioned 'size'*, random values of Pi will be generated on the clients console.
 * Go to the server’s console and enter the same constant identifier's value entered previously to take the average of all the recorded Pi values from client.
 * Socket closes and the server will be terminated.
