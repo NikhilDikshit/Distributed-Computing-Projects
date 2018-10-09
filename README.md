@@ -9,7 +9,7 @@ Write two programs to chat. Each program is playing the role of a client and a s
 * **Run MyServer:** The program is waiting for the client. After the client is connected the server program send: *Hello !!*
 * **Run MyClient:** This program receives The word: *Hello !!*  
 
-The following steps are repeated until the client enters: *bye*
+**The following steps are repeated until the client enters: *bye***
 ```
 $ Enter a message on the client’s console (Like: How are you server?) 
 This message should appear on the server’s console (like: How are you server?)
