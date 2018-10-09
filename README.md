@@ -6,10 +6,10 @@ There are two arrays: 'a' and 'b' of type integer. Make two threads to sort: a a
 
 ## Week 2 (09/30)
 Write two programs to chat. Each program is playing the role of a client and a server. Name one of them MyServer.java and the other MyClient.java. This is how these programs should work:
-* **Run MyServer:** The program is waiting for the client. After the client is connected the server program send: *Hello !!*
-* **Run MyClient:** This program receives The word: *Hello !!*  
+* **Run MyServer:** The program is waiting for the client. After the client is connected the server program sends *Hello !!*
+* **Run MyClient:** This program receives the word: *Hello !!*  
 
-**The following steps are repeated until the client enters: *bye***
+**The following steps are repeated until the client enters: *Bye***
 ```
 $ Enter a message on the client’s console (Like: How are you server?) 
 This message should appear on the server’s console (like: How are you server?)
