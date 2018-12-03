@@ -5,7 +5,7 @@ Make 2 files. Name one of them 'MyServer' and the other 'MyClient'.
 * **Run MyServer:** The program is waiting for the client. After the client is connected the server program sends *Hello !!*
 * **Run MyClient:** This program receives the word: *Hello !!*  
 
-**The following steps are repeated until the client enters: *Bye***
+The following steps are repeated until the client enters: *Bye*
 ```
 $ Enter a message on the client’s console (Like: How are you server?) 
 This message should appear on the server’s console (like: How are you server?)
