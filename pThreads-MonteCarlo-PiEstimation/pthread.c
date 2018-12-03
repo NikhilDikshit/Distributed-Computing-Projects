@@ -75,9 +75,7 @@ void *thread_toss(void* rank) {
   for (toss = 0; toss < segment; toss++) {
     x = rand_double();
     y = rand_double();
-    
     distance_squared = x * x + y * y;
-    
     if (distance_squared <= 1)
       number_in_circle_in_thread++;
   }
