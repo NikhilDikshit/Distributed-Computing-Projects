@@ -1,7 +1,7 @@
 ## Instructions:
 
 Note that my bank is just a Java vector. Each customer is an object of the following class:
-```
+```java
 //Needs on the server side.
 class Account
 {
@@ -16,7 +16,7 @@ class Account
 }
 ```
 Use the following interface to completer the program. Note: The vector is of the type of this class:
-```
+```java
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
