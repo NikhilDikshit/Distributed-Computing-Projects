@@ -1,5 +1,5 @@
-# Distributed-Computing-Projects
-Source codes of the projects completed as part of the Distributed Computing coursework (CS 610) taught by Prof. Mehdi Badii at Pace University, New York.
+# Parallel-and-Distributed-Computing-Projects
+Source codes of the projects completed as part of the Parallel and Distributed Computing coursework (CS 610) taught by Prof. Mehdi Badii at Pace University, New York.
 
 ## Week 1 (09/23)
 There are two arrays: 'a' and 'b' of type integer. Make two threads to sort: a and b. Make a third thread to merge these two arrays into array: c. The method: main should display array c. Note that the two sort threads should work concurrently. Once the array a and b are sorted the merge thread merges them.
@@ -68,3 +68,30 @@ public String deposit(String name, float amt, int accountNo) throws RemoteExcept
 public String transfer(String name, int fromAccount,  int toAccount, float amt) throws RemoteException;
 }
 ```
+
+## Week 5 (12/02)
+Suppose we toss darts randomly at a square dartboard, whose bullseye is at the origin, and whose sides are 2 feet in length. Suppose also that there’s a circle inscribed in the square dartboard. The radius of the circle is 1 foot, and it’s area is π square feet. If the points that are hit by the darts are uniformly distributed (and we always hit the square), since the ratio of the area of the circle to the area of the square is π/4, the number of darts that hit inside the circle should approximately satisfy the equation:
+```
+number_in_circle / total_number_of_tosses = π / 4
+```
+We can use this formula to estimate the value of π with a random number
+generator:
+```
+number in circle = 0;
+for (toss = 0; toss < number of tosses; toss++) {
+	x = random double between − 1 and 1;
+	y = random double between − 1 and 1;
+	distance squared = x∗x + y∗y;
+	if (distance squared <= 1) 
+		number in circle++;
+}
+pi estimate = 4∗number in circle/((double) number of tosses);
+```
+This is called a “Monte Carlo” method, since it uses randomness (the dart
+tosses).
+
+Write a Pthreads program that uses a Monte Carlo method to estimate π.
+The main thread should read in the total number of tosses and print the estimate.
+You may want to use long long int s for the number of hits in the circle and
+the number of tosses, since both may have to be very large to get a reasonable
+estimate of π.
