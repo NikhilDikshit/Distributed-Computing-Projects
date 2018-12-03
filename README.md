@@ -11,7 +11,7 @@ Write two programs to chat. Each program is both the client and the server.
 Write client-server classes to calculate π. We have a number of clients. The server creates a thread for each client. Each client calculates the estimated value of π and sends to the server. The server takes an average of these values and displays a more precise value of π. Note that the server should work for any number of clients by just changing the value of the constant identifier: *size*.
 
 ## Week 4 (10/14)
-Write a client-server program using RMI for a bank account. 
+Write a client-server program using remote method invocation for a bank account. 
 
 ## Week 5 (12/02)
 Write a Pthreads program that uses a Monte Carlo method to estimate π. The main thread should read in the total number of tosses and print the estimate. You may want to use long long int s for the number of hits in the circle and the number of tosses, since both may have to be very large to get a reasonable estimate of π.
