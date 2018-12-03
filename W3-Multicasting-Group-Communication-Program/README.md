@@ -1,4 +1,4 @@
-## Running Instructions for Project 3: 
+## Running Instructions: 
 
 * Run the server. Please note, nothing prompts right now but the server will start.
 * Run the client. Enter the desired value of (size) constant identifier, eg 2 or 2500; it's the number of clients you want your server to work for. 
