@@ -6,7 +6,7 @@ number_in_circle / total_number_of_tosses = π / 4
 ```
 We can use this formula to estimate the value of π with a random number
 generator:
-```
+```java
 number in circle = 0;
 for (toss = 0; toss < number of tosses; toss++) {
 	x = random double between − 1 and 1;
