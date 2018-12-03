@@ -6,7 +6,7 @@ Make 2 files. Name one of them 'MyServer' and the other 'MyClient'.
 * **Run MyClient:** This program receives the word: *Hello !!*  
 
 The following steps are repeated until the client enters: *Bye*
-```
+```bash
 $ Enter a message on the client’s console (Like: How are you server?) 
 This message should appear on the server’s console (like: How are you server?)
 
